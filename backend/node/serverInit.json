@@ -1,0 +1,8 @@
+[{
+    "myUrl": "http://192.168.2.10:3003",
+    "serverName": "Not Bob but the builders",
+    "initialNodes": [
+        "http://172.17.0.4:3003",
+        "http://172.17.0.3:3003"
+    ]
+}]

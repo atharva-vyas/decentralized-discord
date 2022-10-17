@@ -1,0 +1,88 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    height: 100vh;
+    background-color: #26282c;
+}
+
+.sidebar__top {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px;
+    background-color: #2f3135;
+    color: white;
+    border-bottom: 3px solid #26282c;
+}
+
+.sidebar__channels {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 25%;
+    flex: 1;
+}
+
+.sidebar__addChannel {
+    cursor: pointer;
+}
+
+.sidebar__addChannel:hover {
+    color: white;
+}
+
+.sidebar__channelsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+    color: gray;
+}
+
+.sidebar__header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__header:hover {
+    color: white;
+}
+
+.sidebar__bottom {
+    width: 21.7%;
+    position: absolute;
+    bottom: 0;
+}
+
+.sidebar__profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    background-color: #2f3135;
+    padding: 10px;
+    border-top: 1px solid gray;
+    padding-left: 20px;
+}
+
+.sidebar__profileInfo {
+    flex: 1;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.sidebar__profileInfo > h3 {
+    color: white;
+}
+
+.sidebar__profileIcons > .MuiSvgIcon {
+    padding: 10px;
+}
+
+.chat__logout {
+    cursor: pointer;
+    padding-right: 22px;
+}

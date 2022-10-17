@@ -1,0 +1,17 @@
+.user__sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.15;
+    height: 100vh;
+    background-color: #26282c;
+}
+
+.userSidebar__usersHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+    color: gray;
+    padding-left: 20px;
+}
